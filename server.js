@@ -3,7 +3,7 @@ var express = require("express");
 var bodyParser = require("body-parser");
 
 // Variables for the server and express
-var PORT = process.env.PORT || 3000;
+var PORT = process.env.PORT || 3306;
 var app = express();
 
 // Serve static content for the app from the "public" directory 
